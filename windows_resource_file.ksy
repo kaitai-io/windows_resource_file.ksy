@@ -2,6 +2,9 @@ meta:
   id: windows_resource_file
   title: Windows resource file
   file-extension: res
+  xref:
+    justsolve: Windows_resource
+    wikidata: Q1417897
   license: CC0-1.0
   endian: le
 doc: |
@@ -76,7 +79,7 @@ types:
         -orig-id: Characteristics
         type: u4
         doc: Extra 4 bytes that can be used by user for any purpose.
-      - id: value        
+      - id: value
         size: value_size
       - id: padding2
         size: (4 - _io.pos) % 4
